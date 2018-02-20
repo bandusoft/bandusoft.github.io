@@ -1,0 +1,209 @@
+
+<!DOCTYPE html>
+<html>
+<title>Bandu Soft</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('/image/Fondo-pantalla1920x1080.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/image/bandu-logo-fondo transparente.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/image/bandu-logo-fondo transparente.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">Inicio</a>
+    <a href="#nuestraempresa" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i>  Nuestra Empresa</a>
+    <a href="#servicios" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Servicios</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Contactenos</a>
+  </div>
+  </div>
+
+
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home" >
+  <div class="w3-display-middle" style="white-space:nowrap;">
+     <img src="image/bandu-logo-fondo transparente.png" alt="Logo" style="with:100%">
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64" id="nuestraempresa">
+  <h2 class="w3-center">Nuestra Empresa</h2>
+  
+  <p>Somos equipo comprometido con la innovacion tecnológica, con una experiencia de 20 años en desarrolo de software y la explotación de la información en todos sus niveles. <br>
+  Nuestro objetivo es construir herramientas que le permitan a nuestros Clientes lograr una ventaja competitiva para que puedan tomar mejores, rápidas y mas inteligentes decisiones, mejorando el rendimiento del negocio.</p>
+ </div>
+ 
+ <div class="w3-container w3-padding-16" id="servicios">
+  <h1 class="w3-center">Servicios</h1>
+  
+  <div class="w3-container w3-content w3-padding-16" style="width:100%">
+      <h3> <strong>Inteligencia de Negocios </strong></h3>
+      <div class="w3-content w3-third">
+            <img src="image/bi.png" alt="bi" class="w3-image">
+      </div>
+      <div class="w3-content w3-rest">
+              <p><strong>Las mejores decisiones se toman realizando el mejor análisis de la información.</strong>
+              <br>
+              La Inteligencia de Negocios es el conjunto de procesos, aplicaciones y tecnologías que facilitan la <strong> obtención rápida y sencilla de información </strong> proveniente de los sistemas de gestión utilizados, permitiendo mayor visibilidad de las operaciones del negocio, de los informes y métricas, generadas de forma automática, centralizadas y detalladas, permitiendo análisis de tendencias y pronósticos para <strong> la toma de decisiones.</strong>
+              <br>
+              Nuestro equipo de trabajo puede proveerle las soluciones que su negocio requiere para seguir creciendo.
+              </p>
+          </div>
+   </div>
+  
+  <div class="w3-container w3-content w3-padding-16" style="width:100%">
+      <h3> <strong> Servicios para Empresas de Salud </strong></h3>
+      <div class="w3-content  w3-third">
+          <img src="image/hc02.jpg" alt="hc" class="w3-image">
+      </div>
+      <div class="w3-content w3-rest">
+          <p>Ofrecemos servicios robustos y fáciles de utilizar, creado específicamente para organizaciones de Salud: Hospitales, Clínicas, Consultorios y profesionales. <br>
+              Disponemos de versiones especializadas en gestión de Clínicas para la Gestión unificada de <strong>Turnos, Pacientes, Convenios, Historias Clínicas y Gestión de Producción y Facturación electrónica.</strong>
+          </p>
+      </div> 
+  </div> 
+     
+  <div class="w3-container w3-content w3-padding-16" style="width:100%">
+      <h3> <strong> Desarrollo de soluciones de software </strong></h3>
+      <div class="w3-content w3-third">
+          <img src="image/solucion.jpg" alt="desarrollo" class="w3-image">
+      </div>
+      <div class="w3-content w3-rest">
+          <p>Desarrollamos <strong> soluciones de software a medida e interfases </strong> que su empresa necesita para seguir creciendo basándonos en las necesidades reales de su negocio.
+          </p>
+      </div>
+  </div>
+  
+  
+  <div class="w3-container w3-content w3-padding-16" style="width:100%">
+      <h3> <strong> Seguridad, Hardware, Redes y Telecomunicaciones</strong></h3>
+      <div class="w3-content w3-third">
+          <img src="image/hard.jpg" alt="hard" class="w3-image">
+      </div>
+      <div class="w3-content w3-rest">
+          <p>Contamos con mas de 20 años de experiencia en<strong> seguridad </strong> y auditoria informática, soluciones de <strong> conectividad </strong>, diseño, construcción y administración de <strong> redes y telecomunicaciones </strong>   , respaldos de seguridad y <strong> servidores </strong>a medida y compatibles con su negocio.
+           
+          </p>
+      </div>
+  </div>
+  
+    <div class="w3-container w3-content w3-padding-16" style="width:100%">
+      <h3> <strong> Soporte Técnico </strong></h3>
+      <div class="w3-content w3-third">
+          <img src="image/st.png" alt="st" class="w3-image">
+      </div>
+      <div class="w3-content w3-rest">
+          <p>Brindamos servicios de <strong> mantenimiento, reparación y soporte técnico </strong> integral diseñados exclusivamente a la medida del cliente, ajustándonos a las necesidades particulares de cada uno.
+          </p>
+      </div>
+  </div>
+  
+  
+ </div>
+ 
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">Contáctenos</h3>
+  <div class="w3-row w3-content w3-container">
+    <div class="w3-col m4 w3-container w3-panel">
+      <!-- Add Google Maps -->
+     <div id="map" class="w3-left" style="height:300px; width:100%" style="border-style:solid"></div>
+
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Velez Sarsfield 1456 - Dpto 4, Cipolletti, Río Negro, Argentina<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Teléfono: +54 299 5967189 / 299 5076183<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: info@bandusoft.com.ar<br>
+      </div>
+     
+    
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <!--
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+	-->
+</footer>
+ 
+<!-- Add Google Maps -->
+<script>
+      function initMap() {
+        var uluru = {lat: -38.944945, lng: -67.980632};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru,
+          zoom:15
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    
+     <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDG0LgaJoPldA-qEhT0lHKWqHdaHltYjk0&callback=initMap">
+    </script>
+
+</body>
+</html>
